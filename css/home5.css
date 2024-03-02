@@ -24,11 +24,13 @@
 		margin-top:1%;
 		padding-left:8%;
 		padding-right:15%;
+		background:blue;
 	}
 	#logo{
 		width:5%;
 		height:5vh;
-		font-size:6em;
+		font-size:15em;
+		background:red;
 	}
 	
 	/* i want to eliminate the default styles that come with links*/
@@ -175,13 +177,13 @@
 		margin-top:-1%;
 	}
 	#second_phone_number{
-		margin-top:-8%;
+		margin-top:-5%;
 	}
 	#facebook_icon{
 		font-size:150%;
 	}
 	#facebook_icon{
-		margin-top:-8%;
+		margin-top:-5%;
 	}
 	@keyframes anime{
      0%{
