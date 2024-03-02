@@ -20,12 +20,12 @@
 		display:flex
 	}
 	#newton{
-		font-size:100%;
+		font-size:120%;
 		margin-top:1%;
 		padding-left:8%;
 		padding-right:7%;
 		background:blue;
-		margin-right:12%;
+		margin-right:2%;
 		
 	}
 	#logo{
@@ -34,6 +34,7 @@
 		font-size:15em;
 		background:red;
 		margin-top:-4%;
+		margin-right:-50%;
 	}
 	
 	/* i want to eliminate the default styles that come with links*/
