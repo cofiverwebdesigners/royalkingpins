@@ -4,6 +4,11 @@
 	#close{
 		display:none;
 	}
+	.Heading .icon{
+	color:black;
+	font-size:150%;
+	margin-top:-2%;
+	}
 	
 	.Heading{
 		display:flex
