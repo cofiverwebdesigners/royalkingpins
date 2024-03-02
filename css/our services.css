@@ -21,7 +21,7 @@
 	#logo{
 		width:30%;
 		height:5vh;
-		display:none;
+		background:red;
 	}
 	
 	/* i want to eliminate the default styles that come with links*/
