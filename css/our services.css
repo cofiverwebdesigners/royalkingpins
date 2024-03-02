@@ -1,0 +1,295 @@
+/* styling for Mobile First */
+@media screen and (max-Width:800px){
+	/* i want to eliminate that one that looks like x */
+	#close{
+		display:none;
+	}
+	
+	.Heading{
+		display:flex
+	}
+	#newton{
+		font-size:100%;
+		margin-top:-1%;
+		padding-left:8%;
+		padding-right:15%;
+	}
+	#logo{
+		width:10%;
+		height:5vh;
+	}
+	
+	/* i want to eliminate the default styles that come with links*/
+	.Heading a{
+		text-decoration:none;
+	}
+	
+	/* i want to style my navigation now */
+	.navigation{
+		margin-top:-5%;
+		width:50%;
+		position:absolute;
+		z-index:1;
+	}
+
+
+	.navigation a{
+		display:block;
+		text-decoration:none;
+		padding-bottom:8%;
+		padding-top:8%;
+		color:black;
+		
+	}
+	nav{
+		border-top-right-radius:4%;
+		border-bottom-right-radius:4%;
+		background:#f0f0f0;
+		display:none;
+		
+	}
+	#my_kaicon{
+		padding-right:10%;
+	}
+	#my_kaicon2{
+		padding-right:4%;
+	}
+	.navigation .watu{
+		color:red;
+	}
+	.heading_display{
+		width:100%;
+		margin-top:-10%;
+		height:10vh;
+		overflow:hidden;
+
+	}
+	.heading_display .my_head{
+		width:400%;
+		height:10vh;
+		margin-left:-1%;
+		margin-top:-18%;
+		position:relative;
+		animation:4s anime 1 forwards;
+      		
+	}
+	.heading_display h1{
+		font-size:1em;
+		width:30%;
+		float:left;
+		margin-top:7%;
+		text-align:center;
+		margin-left:-3%;
+		
+	}
+	
+	/*let me start styling the our services page.*/
+	/* i will start with that which houses my image.*/
+	#heading_tiling{
+		margin-top:-0.5%;
+	}
+	
+	
+	.Tiling,.Terrazos,.wardrope_kitchen,.cabros{
+		width:100%;
+		height:45vh;
+		margin-top:-6%;
+		overflow:hidden;
+		margin-bottom:10%;
+		}
+	.tiling_images_and_small_heading,.Terrazos_image_container,
+	.wardrope_image_container,.cabros_image_container{
+		margin-top:-5%;
+		width:100%;
+		height:30vh;
+		overflow:hidden;
+	}
+	.The_image img{
+		width:95%;
+		height:30vh;
+		padding-left:2%;
+	}
+
+	.Tiling p,.Terrazos p,.wardrope_kitchen p,.cabros p{
+		padding:0;
+		margin:0;
+		font-size:90%;
+
+	}
+	
+	#heading_Wardrope,#heading_terrazo,#heading_cabros{
+		margin-top:-1%;
+	}
+	span{
+		color:green;
+	}
+	
+	.end{
+		width:100%;
+		height:31vh;
+		background:#F29F22;
+	}
+	
+	#contact_label{
+		margin-bottom:-0.1%;
+		padding-bottom:4%;
+	}
+	
+	#phone{
+		display:grid;
+		grid-template-columns:10% 50%;
+		height:8vh;
+	}
+	#The_phone_numbers{
+		font-size:90%;
+		padding-top:-3%;
+		height:7vh;
+	}
+	#The_contacts_icon{
+
+	}
+	#my-icon{
+		font-size:100%;
+		margin-right:2%;
+	}
+	#first_phone_number{
+		margin-top:-1%;
+	}
+	#second_phone_number{
+		margin-top:-10%;
+	}
+	#facebook_icon{
+		font-size:150%;
+	}
+	#facebook_icon{
+		margin-top:-8%;
+	}
+
+
+
+}
+
+/* styling for a Large Screen */
+@media screen and (min-Width:992px){
+	.icon{
+		display:none;
+	}
+	#my_kaicon,#my_kaicon2{
+		display:none;
+	}
+		/*let me style  the Logo */
+	#logo{
+		width:5%;
+		margin-top:-5%;
+	}
+	/* let me style  that other one for the Royal Kings*/
+	#newton{
+		padding-top:1%;
+		font-size:150%;
+		margin-left:10%;
+		width:30%;
+	}
+	/* let me start by styling the  navigation */
+	nav a{
+		text-decoration:none;
+		padding-left:5%;
+		margin-left:2%;
+	}
+	
+	/*  let me bring the nav to  the naviagation area as well */
+	nav{
+		float:right;
+		font-size:150%;
+		margin-top:-3%;
+		width:30%;
+		margin-left:30%;
+		padding-left:20%;
+	
+	}
+	
+	/* let me style the header */
+	.Heading{
+		height:10vh;
+	}
+	.heading_display{
+		width:50%;
+		height:10vh;
+		overflow:hidden;
+		margin-top:-5%;
+		font-size:70%;
+		text-align:center;
+		margin-left:20%;
+		margin-right:20%;
+		padding-top:0.5%;
+	}
+	
+	/*styling the  end */
+	.end{
+		height:40vh;
+		width:100%;
+		background:#F29F22;
+	}
+	.reach_us{
+		float:left;
+		margin-right:4%;
+		width:20%;
+	}
+	.our_social_media{
+		float:left;
+		margin-right:4%;
+	}
+	#The_phone_numbers{
+		margin-left:20%;
+		margin-top:-15%;
+	}
+	#my-icon{
+		margin-right:10%;
+	}
+	
+	
+	
+	/* let me give the following classes some width  */
+	.Tiling,.Terrazos,.wardrope_kitchen,.cabros{
+		width:90%;
+		height:70vh;
+		overflow:hidden;
+		margin-bottom:2%;
+	}
+	
+	
+	
+	/* let me style the different services that we have */
+	.main_container{
+		display:grid;
+		grid-template-columns:50% 50%;
+		margin-left:6%;
+		
+	}
+	
+	.tiling_images_and_small_heading,.wardrope_image_container,
+	.Terrazos_image_container,.cabros_image_container{
+		width:100%;
+		height:50vh;
+		margin-top:-6%;
+		overflow:hidden;
+	}
+	
+	.tiling_images_and_small_heading img,.wardrope_image_container img,
+	.Terrazos_image_container img,.cabros_image_container img{
+		width:100%;
+		height:50vh;
+	}
+	
+	
+	#heading_Wardrope,#heading_terrazo,#heading_cabros,#heading_tiling{
+		margin-top:0%;
+		font-size:150%;
+	}
+	span{
+		color:green;
+	}
+	.watu{
+		color:maroon;
+	}
+
+}

@@ -1,0 +1,153 @@
+<DOCTYPE html>
+<html>
+<head>
+     <title>The Royal Kingpins Construction and consultant Firm</title>
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <Link rel="stylesheet" href="css/home5.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!--- i would like to have  the heading section of my webpage. -->
+      
+	 <div class="Heading">
+	    <a href="#" class="icon" id="ham" onclick="showmenu()"> &#9776;</a>
+		<a href="#" class="icon" id="close" onclick="hidemenu()">✖</a>
+		<h4 id="newton">The Royal Kingpins</h4>
+		<img id="logo" src="home_photos/logo.png">
+	 </div>
+	 <!-- i want to add the navigation at that point because it is going to be 
+		part of the heading content-->
+	 <nav id="mynav" class="navigation">
+		  <a href="index.html" ><i  class="fa fa-home" aria-hidden="true" id="my_kaicon"></i>
+			<span class="watu">Home</span></a>
+		  <a href="our services.html"><i class="fa fa-cogs" aria-hidden="true" id="my_kaicon"></i>Our Services</a>
+		  <a href="About us.html"  ><i  class="fa fa-info-circle" id="my_kaicon" aria-hidden="true"></i>About us</a>
+	 </nav>
+	 <!-- that marks the head of the navigation area --->
+	 <div class="heading_display">
+	    <div class="my_head">
+			<h1 id="first_heading">We lay durable tile floors</h1>
+			<h1 id="second_heading">We create lasting terrazzo floors</h1>
+			<h1 id="third_heading">We install lasting cabros </h1>
+			<h1 id="fourth_heading">We craft kitchen wardrobes</h1>
+			
+		</div>
+	 </div>
+	 <!-- Now, After that i would like to have another container-->
+	 <!-- in this other container, i  will have the list of jobs that 
+	 our company does. 
+	 it will will a series of images that will be moving from right to left
+	 one at a time
+	 ---->
+	 <!-- start-->
+	 <div class="services">
+	    <div class="big_holder">
+		   <div class="my_image" id="first">
+			 <img src="home_photos/tiles.jpg" alt="tiles" >
+			</div>
+
+			
+			 <div class="my_image" id="second">
+				<img src="home_photos/Terrazo.jpg" alt="Terrazo">
+			</div>
+			
+		
+			<div class="my_image" id="third">
+				<img src="home_photos/cabros.jpg" alt="cabros">
+			</div>
+			
+			<div class="my_image" id="fourth">
+				<img src="home_photos/wardrope.jpg" alt="cabros">
+			</div>
+		</div>
+	 </div>
+	 <!--end-->
+	 
+	 <!--let me have right  arrow -->
+	 <div class="arrow" id="right" onclick="next()">
+		<i class="fa fa-arrow-right" aria-hidden="true" id="my_right"></i>
+	 </div>
+	 
+	 <!-- let me add the left arrow -->
+	  <div class="arrow" id="left" onclick="prev()">
+		<i class="fa fa-arrow-left" aria-hidden="true" id="my_left"></i>
+	  </div>
+	
+	<div class="user_selection">
+		<input type="radio" id="my_first" 
+		name="my_radio" onclick="show_first_image()">
+		<input type="radio" id="my_second" name="my_radio"
+		onclick="show_second_image()">
+		<input type="radio" id="my_third" name="my_radio"
+		onclick="show_third_image()">
+		<input type="radio" id="my_fourth" name="my_radio"
+		onclick="show_fourth_image()">
+	</div>
+	
+	<!-- Another section -->
+	
+	<section class="blog">
+	<p>
+	Experience excellence with Royal Kingpins Construction 
+	and Consultant Firm. From <span>durable tile floors</span> to
+	<span>lasting terrazzo</span> and 
+	<span>resilient cabros</span>, we deliver quality 
+	craftsmanship and customer satisfaction.
+	Trust us to transform your spaces with precision and 
+	innovation.
+	
+	</p>
+		
+	</section>
+	
+	<!-- end of the another section-->
+	
+	
+	
+	
+	<!--- let me add another section of contacts -->
+	<div class="end">
+		 <div class="reach_us">
+			   <h4 id="contact_label">contact us</h4>
+			   <div id="phone">
+				   <div id="The_contacts_icon">
+						<i class="fa fa-phone" id="my-icon" 
+						aria-hidden="true"></i>
+				   </div>
+				   
+				   <div id="The_phone_numbers">
+						<p id="first_phone_number">+254700255831/</p>
+						<p id="second_phone_number">+254750546305</p>
+				   </div>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope" id="my-icon"
+					aria-hidden="true"></i>kingpinsltd@gmail.com
+				</div>
+		</div>
+		<div class="our_social_media">	
+				<h4 id="follow_us_media_heading">follow us on social media</h4>
+				<div id="social_media">
+				  <div id="facebook_icon">
+					  <a href="https://www.facebook.com/newton.anguba" 
+					  target="_blank">
+					  <i class="fa fa-facebook" aria-hidden="true">
+					  </i></a>
+				  </div>
+				</div>
+			 
+		</div>
+	</div>
+	
+	<!---end of my  conatcts and fallow us section.  -->
+<script type="text/JavaScript" src="js/myjava(homepage).js"></script> 
+
+</body>
+</html>
+
+		
+		   
+	  
