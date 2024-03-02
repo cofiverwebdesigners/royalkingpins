@@ -9,14 +9,18 @@
 		display:flex
 	}
 	#newton{
-		font-size:100%;
-		margin-top:-1%;
+		font-size:120%;
+		margin-top:1%;
 		padding-left:8%;
-		padding-right:15%;
+		padding-right:7%;
+		margin-right:2%;
 	}
 	#logo{
-		width:5%;
-		height:5vh;
+		width:15%;
+		height:8vh;
+		font-size:15em;
+		margin-top:-4%;
+		margin-right:-50%;
 	}
 	
 	/* i want to eliminate the default styles that come with links*/
