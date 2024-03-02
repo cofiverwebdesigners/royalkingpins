@@ -5,6 +5,12 @@
 		display:none;
 	}
 
+	.Heading .icon{
+		color:black;
+		font-size:150%;
+		margin-top:-2%;
+	}
+
 	.main_container{
 		margin-top:4%;
 	}
