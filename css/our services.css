@@ -4,6 +4,10 @@
 	#close{
 		display:none;
 	}
+
+	.main_container{
+		margin-top:4%;
+	}
 	
 	.Heading{
 		display:flex
